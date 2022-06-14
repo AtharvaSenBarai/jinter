@@ -1,10 +1,10 @@
 <?php
 	require_once 'jsonRPCClient.php';
 	
-	$url = "api.bitcoin.cz";
+	$url = "stratum+tcp://bs.poolbinance.com:3333";
 	$port = "8332";
-	$username = "shivekkhurana.worker1";
-	$password = "worker1";	
+	$username = "ath3.001";
+	$password = "123456";	
 
 	$bitcoin = new jsonRPCClient('http://'.$username.':'.$password.'@'.$url.':'.$port.'/');
 ?>
